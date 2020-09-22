@@ -1,0 +1,53 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\WINNT\system32\stdole2.tlb#OLE Automation
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; mscomctl.ocx
+Form=CaptureRectangle.frm
+Form=PrintScreen.frm
+Object={F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0; Comdlg32.ocx
+Module=CaptureWindows; Capture.bas
+Form=frmSplash.frm
+Form=frmMain.frm
+Form=frmPreview.frm
+Startup="frmMain"
+HelpFile=""
+Title="EZCapture"
+ExeName32="EZ Capture.exe"
+Command32=""
+Name="EZCapture"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=7
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionCompanyName="Donn C. Romasanta"
+VersionFileDescription="An easy to use screen capture tool"
+VersionLegalCopyright="This software is provided 'as-is', without any express or implied warranty. In no event will the author be held liable for any damages arising from the use of this software. "
+VersionProductName="EZ Capture"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=-1
+BoundsCheck=-1
+OverflowCheck=-1
+FlPointCheck=-1
+FDIVCheck=-1
+UnroundedFP=-1
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[RVB]
+DeleteClass1=frmFileMenu
+DeleteClass2=frmEditMenu
+DeleteClass3=frmViewMenu
+DeleteClass4=frmExpFileMenu
+DeleteClass5=frmExpFileMenu
